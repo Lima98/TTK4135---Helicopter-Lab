@@ -1,0 +1,27 @@
+\documentclass[]{article}
+% Importing document settings from our file "packages.sty"
+\usepackage{packages}
+
+
+% Beginning of document
+\begin{document}
+
+% Inserting title page
+\import{./}{title}
+
+% Defining front matter settings (Norsk: innstillinger for forord m.m.)
+\frontmatter
+
+% Inserting table of contents
+\tableofcontents
+
+% Defining main matter settings (Norsk: innstillinger for hoveddelen av teksten)
+\mainmatter
+
+\import{./Sections/}{Task_1}
+
+\import{./Sections}{Notes}
+
+
+% End of document
+\end{document}
